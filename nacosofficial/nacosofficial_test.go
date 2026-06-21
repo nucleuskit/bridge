@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	bridgenacos "github.com/nucleuskit/nucleus/bridge/nacos"
+	bridgenacos "github.com/nucleuskit/bridge/nacos"
 )
 
 func TestNewUsesOfficialSDKFactoryWithoutLeakingSDKTypesToProviderAPI(t *testing.T) {

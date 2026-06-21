@@ -7,7 +7,7 @@ import (
 	"github.com/nacos-group/nacos-sdk-go/v2/clients"
 	"github.com/nacos-group/nacos-sdk-go/v2/common/constant"
 	"github.com/nacos-group/nacos-sdk-go/v2/vo"
-	bridgenacos "github.com/nucleuskit/nucleus/bridge/nacos"
+	bridgenacos "github.com/nucleuskit/bridge/nacos"
 )
 
 var (

@@ -1,14 +1,13 @@
-module github.com/nucleuskit/nucleus/bridge/nacosofficial
+module github.com/nucleuskit/bridge/nacosofficial
 
 go 1.26.3
 
 require (
-	github.com/nucleuskit/nucleus/bridge v0.0.0
 	github.com/nacos-group/nacos-sdk-go/v2 v2.2.7
+	github.com/nucleuskit/bridge v0.1.0-alpha.2
 )
 
 require (
-	github.com/nucleuskit/nucleus/cap v0.0.3 // indirect
 	github.com/alibabacloud-go/debug v0.0.0-20190504072949-9472017b5c68 // indirect
 	github.com/alibabacloud-go/tea v1.1.17 // indirect
 	github.com/alibabacloud-go/tea-utils v1.4.4 // indirect
@@ -25,6 +24,7 @@ require (
 	github.com/matttproud/golang_protobuf_extensions v1.0.1 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
+	github.com/nucleuskit/cap v0.1.0-alpha.2 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/prometheus/client_golang v1.12.2 // indirect
 	github.com/prometheus/client_model v0.2.0 // indirect
@@ -45,7 +45,3 @@ require (
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
-
-replace github.com/nucleuskit/nucleus/bridge => ../
-
-replace github.com/nucleuskit/nucleus/cap => ../../cap
