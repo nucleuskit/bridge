@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	captransport "github.com/nucleuskit/nucleus/cap/transport"
+	captransport "github.com/nucleuskit/cap/transport"
 )
 
 type ManagerConfig struct {

@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	caplock "github.com/nucleuskit/nucleus/cap/lock"
+	caplock "github.com/nucleuskit/cap/lock"
 )
 
 func TestLockerImplementsLockCapability(t *testing.T) {

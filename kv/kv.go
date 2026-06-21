@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	caphealth "github.com/nucleuskit/nucleus/cap/health"
+	caphealth "github.com/nucleuskit/cap/health"
 )
 
 var (

@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	caplock "github.com/nucleuskit/nucleus/cap/lock"
+	caplock "github.com/nucleuskit/cap/lock"
 )
 
 type Config struct {

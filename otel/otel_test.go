@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	caplog "github.com/nucleuskit/nucleus/cap/log"
-	captrace "github.com/nucleuskit/nucleus/cap/trace"
+	caplog "github.com/nucleuskit/cap/log"
+	captrace "github.com/nucleuskit/cap/trace"
 )
 
 func TestProviderImplementsTraceAndLogWithoutExporter(t *testing.T) {

@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	bridgememory "github.com/nucleuskit/nucleus/bridge/memory"
-	capsql "github.com/nucleuskit/nucleus/cap/sql"
-	capstore "github.com/nucleuskit/nucleus/cap/store"
+	bridgememory "github.com/nucleuskit/bridge/memory"
+	capsql "github.com/nucleuskit/cap/sql"
+	capstore "github.com/nucleuskit/cap/store"
 )
 
 func TestCachedDBCachesQueryLoaderResult(t *testing.T) {

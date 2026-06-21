@@ -5,7 +5,7 @@ import (
 	"errors"
 	"testing"
 
-	caphealth "github.com/nucleuskit/nucleus/cap/health"
+	caphealth "github.com/nucleuskit/cap/health"
 )
 
 func TestProviderCapturesFlushesAndReportsHealth(t *testing.T) {

@@ -8,8 +8,8 @@ import (
 	"sync"
 	"time"
 
-	capredis "github.com/nucleuskit/nucleus/cap/redis"
-	capstore "github.com/nucleuskit/nucleus/cap/store"
+	capredis "github.com/nucleuskit/cap/redis"
+	capstore "github.com/nucleuskit/cap/store"
 )
 
 var ErrNotFound = errors.New("cache key not found")

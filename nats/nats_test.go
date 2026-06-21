@@ -5,8 +5,8 @@ import (
 	"errors"
 	"testing"
 
-	caphealth "github.com/nucleuskit/nucleus/cap/health"
-	capmq "github.com/nucleuskit/nucleus/cap/mq"
+	caphealth "github.com/nucleuskit/cap/health"
+	capmq "github.com/nucleuskit/cap/mq"
 )
 
 func TestBrokerPublishesAndSubscribesBySubject(t *testing.T) {

@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	caphealth "github.com/nucleuskit/nucleus/cap/health"
+	caphealth "github.com/nucleuskit/cap/health"
 	"gorm.io/driver/sqlite"
 	gormsdk "gorm.io/gorm"
 )

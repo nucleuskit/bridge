@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	capstore "github.com/nucleuskit/nucleus/cap/store"
+	capstore "github.com/nucleuskit/cap/store"
 )
 
 var ErrNotFound = errors.New("store key not found")

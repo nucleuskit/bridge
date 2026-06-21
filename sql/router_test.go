@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	capsql "github.com/nucleuskit/nucleus/cap/sql"
+	capsql "github.com/nucleuskit/cap/sql"
 )
 
 func TestRouterSendsReadsToReplicaAndWritesToPrimary(t *testing.T) {

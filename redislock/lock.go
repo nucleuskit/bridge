@@ -9,7 +9,8 @@ import (
 	"strings"
 	"time"
 
-	caplock "github.com/nucleuskit/nucleus/cap/lock"
+	caplock "github.com/nucleuskit/cap/lock"
+	redis "github.com/redis/go-redis/v9"
 )
 
 type Config struct {

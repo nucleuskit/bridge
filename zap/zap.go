@@ -6,7 +6,7 @@ import (
 	"io"
 	"time"
 
-	caplog "github.com/nucleuskit/nucleus/cap/log"
+	caplog "github.com/nucleuskit/cap/log"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 )

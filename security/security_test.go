@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	capauth "github.com/nucleuskit/nucleus/cap/auth"
+	capauth "github.com/nucleuskit/cap/auth"
 )
 
 func TestHMACAuthenticatorAcceptsSignedCredentials(t *testing.T) {

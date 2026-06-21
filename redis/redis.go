@@ -8,8 +8,8 @@ import (
 	"sync"
 	"time"
 
-	caphealth "github.com/nucleuskit/nucleus/cap/health"
-	capredis "github.com/nucleuskit/nucleus/cap/redis"
+	caphealth "github.com/nucleuskit/cap/health"
+	capredis "github.com/nucleuskit/cap/redis"
 )
 
 var ErrNotFound = errors.New("redis key not found")

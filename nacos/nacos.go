@@ -7,9 +7,10 @@ import (
 	"fmt"
 	"sync"
 
-	capconfig "github.com/nucleuskit/nucleus/cap/config"
-	capdiscovery "github.com/nucleuskit/nucleus/cap/discovery"
-	caphealth "github.com/nucleuskit/nucleus/cap/health"
+	capconfig "github.com/nucleuskit/cap/config"
+	capdiscovery "github.com/nucleuskit/cap/discovery"
+	caphealth "github.com/nucleuskit/cap/health"
+	"gopkg.in/yaml.v3"
 )
 
 type Config struct {

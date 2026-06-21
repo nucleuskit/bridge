@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	capauth "github.com/nucleuskit/nucleus/cap/auth"
+	capauth "github.com/nucleuskit/cap/auth"
 )
 
 const (

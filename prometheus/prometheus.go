@@ -11,7 +11,7 @@ import (
 	"strings"
 	"sync"
 
-	capmetric "github.com/nucleuskit/nucleus/cap/metric"
+	capmetric "github.com/nucleuskit/cap/metric"
 )
 
 type Config struct {

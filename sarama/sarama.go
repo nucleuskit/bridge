@@ -8,8 +8,8 @@ import (
 	"time"
 
 	ibmsarama "github.com/IBM/sarama"
-	caphealth "github.com/nucleuskit/nucleus/cap/health"
-	capmq "github.com/nucleuskit/nucleus/cap/mq"
+	caphealth "github.com/nucleuskit/cap/health"
+	capmq "github.com/nucleuskit/cap/mq"
 )
 
 type Config struct {

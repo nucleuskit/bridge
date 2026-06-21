@@ -5,7 +5,7 @@ import (
 	"errors"
 	"testing"
 
-	captrace "github.com/nucleuskit/nucleus/cap/trace"
+	captrace "github.com/nucleuskit/cap/trace"
 )
 
 func TestLegacyTracerImplementsCapTraceWithoutSDKTypes(t *testing.T) {

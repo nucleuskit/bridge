@@ -4,7 +4,7 @@ import (
 	"context"
 	"sync"
 
-	capsentinel "github.com/nucleuskit/nucleus/cap/sentinel"
+	capsentinel "github.com/nucleuskit/cap/sentinel"
 )
 
 type Config struct {

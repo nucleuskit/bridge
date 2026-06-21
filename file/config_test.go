@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	capconfig "github.com/nucleuskit/nucleus/cap/config"
-	caphealth "github.com/nucleuskit/nucleus/cap/health"
+	capconfig "github.com/nucleuskit/cap/config"
+	caphealth "github.com/nucleuskit/cap/health"
 )
 
 func TestFileLoaderImplementsConfigCapability(t *testing.T) {

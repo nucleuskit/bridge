@@ -7,7 +7,8 @@ import (
 	"testing"
 	"time"
 
-	caplock "github.com/nucleuskit/nucleus/cap/lock"
+	"github.com/alicebob/miniredis/v2"
+	caplock "github.com/nucleuskit/cap/lock"
 )
 
 func TestLockerAcquireExtendReleaseWithToken(t *testing.T) {

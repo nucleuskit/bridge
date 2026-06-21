@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	caphealth "github.com/nucleuskit/nucleus/cap/health"
-	capsql "github.com/nucleuskit/nucleus/cap/sql"
+	caphealth "github.com/nucleuskit/cap/health"
+	capsql "github.com/nucleuskit/cap/sql"
 )
 
 func TestNewReturnsPostgresSQLCapability(t *testing.T) {

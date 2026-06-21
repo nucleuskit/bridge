@@ -10,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	caplog "github.com/nucleuskit/nucleus/cap/log"
+	caplog "github.com/nucleuskit/cap/log"
 )
 
 func TestZapLoggerImplementsCapLog(t *testing.T) {

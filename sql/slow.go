@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	capsql "github.com/nucleuskit/nucleus/cap/sql"
+	capsql "github.com/nucleuskit/cap/sql"
 )
 
 type SlowQueryEvent struct {

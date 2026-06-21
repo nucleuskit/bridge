@@ -9,8 +9,9 @@ import (
 	"strings"
 	"sync"
 
-	capconfig "github.com/nucleuskit/nucleus/cap/config"
-	caphealth "github.com/nucleuskit/nucleus/cap/health"
+	capconfig "github.com/nucleuskit/cap/config"
+	caphealth "github.com/nucleuskit/cap/health"
+	"gopkg.in/yaml.v3"
 )
 
 var (

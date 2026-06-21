@@ -4,8 +4,8 @@ import (
 	stdsql "database/sql"
 	"time"
 
-	bridgesql "github.com/nucleuskit/nucleus/bridge/sql"
-	capsql "github.com/nucleuskit/nucleus/cap/sql"
+	bridgesql "github.com/nucleuskit/bridge/sql"
+	capsql "github.com/nucleuskit/cap/sql"
 )
 
 const DefaultDriver = "postgres"

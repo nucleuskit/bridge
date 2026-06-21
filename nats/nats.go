@@ -8,8 +8,8 @@ import (
 	"sync"
 	"time"
 
-	caphealth "github.com/nucleuskit/nucleus/cap/health"
-	capmq "github.com/nucleuskit/nucleus/cap/mq"
+	caphealth "github.com/nucleuskit/cap/health"
+	capmq "github.com/nucleuskit/cap/mq"
 )
 
 type Config struct {

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"sync"
 
-	capsql "github.com/nucleuskit/nucleus/cap/sql"
+	capsql "github.com/nucleuskit/cap/sql"
 )
 
 type RouterConfig struct {

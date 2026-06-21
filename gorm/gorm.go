@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	caphealth "github.com/nucleuskit/nucleus/cap/health"
+	caphealth "github.com/nucleuskit/cap/health"
 	gormsdk "gorm.io/gorm"
 )
 

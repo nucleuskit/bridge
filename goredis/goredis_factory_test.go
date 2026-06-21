@@ -9,7 +9,8 @@ import (
 	"testing"
 	"time"
 
-	capredis "github.com/nucleuskit/nucleus/cap/redis"
+	"github.com/alicebob/miniredis/v2"
+	capredis "github.com/nucleuskit/cap/redis"
 )
 
 func TestClientUsesCustomDialer(t *testing.T) {

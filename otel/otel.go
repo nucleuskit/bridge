@@ -10,8 +10,8 @@ import (
 	"sync"
 	"time"
 
-	caplog "github.com/nucleuskit/nucleus/cap/log"
-	captrace "github.com/nucleuskit/nucleus/cap/trace"
+	caplog "github.com/nucleuskit/cap/log"
+	captrace "github.com/nucleuskit/cap/trace"
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/codes"
 	"go.opentelemetry.io/otel/exporters/stdout/stdouttrace"

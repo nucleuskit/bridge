@@ -11,10 +11,10 @@ import (
 	"testing"
 	"time"
 
-	capmetric "github.com/nucleuskit/nucleus/cap/metric"
-	capmq "github.com/nucleuskit/nucleus/cap/mq"
-	capredis "github.com/nucleuskit/nucleus/cap/redis"
-	capsql "github.com/nucleuskit/nucleus/cap/sql"
+	capmetric "github.com/nucleuskit/cap/metric"
+	capmq "github.com/nucleuskit/cap/mq"
+	capredis "github.com/nucleuskit/cap/redis"
+	capsql "github.com/nucleuskit/cap/sql"
 )
 
 func TestMeterImplementsMetricCapabilityInMemory(t *testing.T) {

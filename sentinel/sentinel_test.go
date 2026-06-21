@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	capsentinel "github.com/nucleuskit/nucleus/cap/sentinel"
+	capsentinel "github.com/nucleuskit/cap/sentinel"
 )
 
 func TestGuardImplementsSentinelCapabilityInMemory(t *testing.T) {

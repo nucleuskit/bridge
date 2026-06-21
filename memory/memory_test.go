@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	capstore "github.com/nucleuskit/nucleus/cap/store"
+	capstore "github.com/nucleuskit/cap/store"
 )
 
 func TestStoreImplementsStoreCapabilityInMemory(t *testing.T) {

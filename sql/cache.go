@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"time"
 
-	capsql "github.com/nucleuskit/nucleus/cap/sql"
-	capstore "github.com/nucleuskit/nucleus/cap/store"
+	capsql "github.com/nucleuskit/cap/sql"
+	capstore "github.com/nucleuskit/cap/store"
 )
 
 var ErrCacheInvalidationUnsupported = errors.New("sql cache invalidation unsupported")

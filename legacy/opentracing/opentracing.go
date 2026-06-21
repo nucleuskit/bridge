@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	captrace "github.com/nucleuskit/nucleus/cap/trace"
+	captrace "github.com/nucleuskit/cap/trace"
 )
 
 type Config struct {

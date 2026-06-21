@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"sort"
 
-	capsql "github.com/nucleuskit/nucleus/cap/sql"
+	capsql "github.com/nucleuskit/cap/sql"
 )
 
 type FactoryConfig struct {
